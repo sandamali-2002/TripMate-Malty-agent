@@ -1,0 +1,21 @@
+# Environment variables (contains sensitive secrets)
+.env
+.env.*
+!.env.example
+
+# Virtual environment files
+Lib/
+Scripts/
+pyvenv.cfg
+CACHEDIR.TAG
+.lock
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE and local editor configurations
+.vscode/
+pyrefly.toml
+pyproject.toml
